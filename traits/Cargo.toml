@@ -3,7 +3,7 @@ name = "orml-traits"
 description = "Shared traits including `BasicCurrency`, `MultiCurrency`, `Auction` and more."
 repository = "https://github.com/open-web3-stack/open-runtime-module-library/tree/master/traits"
 license = "Apache-2.0"
-version = "0.4.1"
+version = "0.4"
 authors = ["Laminar Developers <hello@laminar.one>"]
 edition = "2018"
 
@@ -16,7 +16,7 @@ sp-std = { git = "https://github.com/paritytech/substrate", branch = "master", d
 num-traits = { version = "0.2.14", default-features = false }
 impl-trait-for-tuples = "0.2.1"
 frame-support = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
-orml-utilities = { path = "../utilities", version = "0.4.1", default-features = false }
+orml-utilities = { path = "../utilities", version = "0.4", default-features = false }
 xcm = { git = "https://github.com/paritytech/polkadot", branch = "master", default-features = false }
 
 [features]

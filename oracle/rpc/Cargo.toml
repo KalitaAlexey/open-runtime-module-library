@@ -1,6 +1,6 @@
 [package]
 name = "orml-oracle-rpc"
-version = "0.4.1"
+version = "0.4"
 authors = ["Laminar Developers <hello@laminar.one>"]
 edition = "2018"
 license = "Apache-2.0"
@@ -15,4 +15,4 @@ sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "master
 sp-api = { git = "https://github.com/paritytech/substrate", branch = "master" }
 sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "master" }
 
-orml-oracle-rpc-runtime-api = { path = "runtime-api", version = "0.4.1" }
+orml-oracle-rpc-runtime-api = { path = "runtime-api", version = "0.4" }
