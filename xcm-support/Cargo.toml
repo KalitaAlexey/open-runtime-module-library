@@ -3,7 +3,7 @@ name = "orml-xcm-support"
 description = "Supporting module for XCM integration."
 repository = "https://github.com/open-web3-stack/open-runtime-module-library/tree/master/xcm-support"
 license = "Apache-2.0"
-version = "0.4.1"
+version = "0.4.0"
 authors = ["Acala Developers"]
 edition = "2018"
 
@@ -18,7 +18,7 @@ frame-support = { git = "https://github.com/paritytech/substrate", branch = "mas
 xcm = { git = "https://github.com/paritytech/polkadot", branch = "master", default-features = false }
 xcm-executor = { git = "https://github.com/paritytech/polkadot", branch = "master", default-features = false }
 
-orml-traits = { path = "../traits", version = "0.4.1", default-features = false }
+orml-traits = { path = "../traits", version = "0.4.0", default-features = false }
 
 [features]
 default = ["std"]

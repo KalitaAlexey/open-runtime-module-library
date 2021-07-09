@@ -17,13 +17,13 @@ sp-std = { git = "https://github.com/paritytech/substrate", branch = "master", d
 frame-support = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
 frame-system = { git = "https://github.com/paritytech/substrate", branch = "master", default-features = false }
 
-orml-traits = { path = "../traits", version = "0.4.1", default-features = false }
-orml-utilities = { path = "../utilities", version = "0.4.1", default-features = false }
+orml-traits = { path = "../traits", version = "0.4.0", default-features = false }
+orml-utilities = { path = "../utilities", version = "0.4.0", default-features = false }
 
 [dev-dependencies]
 sp-core = { git = "https://github.com/paritytech/substrate", branch = "master" }
 pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "master" }
-orml_tokens = { package = "orml-tokens", path = "../tokens", version = "0.4.1" }
+orml_tokens = { package = "orml-tokens", path = "../tokens", version = "0.4.0" }
 
 [features]
 default = ["std"]
